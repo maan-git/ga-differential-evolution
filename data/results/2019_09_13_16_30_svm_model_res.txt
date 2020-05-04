@@ -1,0 +1,8 @@
+SVC(C=1.7136244353958832, cache_size=200, class_weight=None, coef0=0.0,
+    decision_function_shape='ovr', degree=3, gamma='auto_deprecated',
+    kernel='linear', max_iter=-1, probability=True, random_state=None,
+    shrinking=True, tol=0.001, verbose=False)
+SVC(C=1.6344374486980642, cache_size=200, class_weight=None, coef0=0.0,
+    decision_function_shape='ovr', degree=3, gamma='auto_deprecated',
+    kernel='linear', max_iter=-1, probability=True, random_state=None,
+    shrinking=True, tol=0.001, verbose=False)

@@ -1,0 +1,2 @@
+{'kernel': 'linear', 'verbose': False, 'probability': True, 'C': 1.7136244353958832}
+{'kernel': 'linear', 'verbose': False, 'probability': True, 'C': 2.1330114116313537}

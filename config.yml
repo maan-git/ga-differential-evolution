@@ -1,0 +1,7 @@
+language: "pt"
+
+pipeline:
+  - name: "SpacyNLP"
+  - name: "SpacyTokenizer"
+  - name: "RegexFeaturizer"
+  - name: "CRFEntityExtractor"

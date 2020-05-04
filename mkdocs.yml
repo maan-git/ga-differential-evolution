@@ -1,0 +1,59 @@
+site_name: 'Differential Evolution'
+site_description: 
+
+theme:
+    name: 'material'
+    palette:
+        primary: grey
+        accent: cyan
+    language: 'pt'
+    logo:
+        icon: "\uE80C"
+
+
+feature:
+    tabs: true
+
+nav:
+    - Home: index.md
+    - Documentação do Usuário:
+        - Extração de Entidades: ./user_docs/entities.md
+        - Confidence e Fallback de Entidades e Classificações: ./user_docs/fallback.md
+        - Perguntas Frequentes: ./user_docs/faq.md
+    - Documentação do Desenvolvedor:
+        - Componentes Personalizados: ./develop_docs/custom_components.md
+    - Referências da API:
+        - Configurações dos Componentes: ./api_reference/component_configuration.md
+        - Formato dos dados de treinamento: ./api_reference/data_format.md
+        - API Python: ./api_reference/python_api.md
+        - API HTTP: ./api_reference/http_api.md
+        - Executando um Servidor: ./api_reference/running_server.md
+        - Armazenando Modelos na Nuvem: ./api_reference/cloud_persist.md
+        - Executando no Docker: ./api_reference/running_docker.md
+
+
+markdown_extensions:
+    - markdown.extensions.admonition
+    - markdown.extensions.codehilite:
+        guess_lang: false
+    - markdown.extensions.def_list
+    - markdown.extensions.footnotes
+    - markdown.extensions.meta
+    - markdown.extensions.toc:
+        permalink: true
+    - pymdownx.arithmatex
+    - pymdownx.betterem:
+        smart_enable: all
+    - pymdownx.caret
+    - pymdownx.critic
+    - pymdownx.details
+    - pymdownx.emoji:
+        emoji_generator: !!python/name:pymdownx.emoji.to_svg
+    - pymdownx.inlinehilite
+    - pymdownx.keys
+    - pymdownx.mark
+    - pymdownx.smartsymbols
+    - pymdownx.superfences
+    - pymdownx.tasklist:
+        custom_checkbox: true
+    - pymdownx.tilde

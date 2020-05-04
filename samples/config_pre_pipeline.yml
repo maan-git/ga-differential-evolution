@@ -1,0 +1,6 @@
+language: "pt"
+
+pipeline: 
+  - name: crf_cnn_ner
+
+data:

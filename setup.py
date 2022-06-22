@@ -32,7 +32,7 @@ install_requires = [
     "mock==3.0.5",
     "packaging==19.0",
     "Twisted==19.2.0",
-    "numpy==1.16.2",
+    "numpy==1.22.0",
     "botocore==1.12.147",
     "setuptools==41.0.1",
     "boto3==1.9.147",

@@ -34,7 +34,7 @@ install_requires = [
     "Twisted==19.2.0",
     "numpy==1.16.2",
     "botocore==1.12.147",
-    "setuptools==41.0.1",
+    "setuptools==65.5.1",
     "boto3==1.9.147",
     "pytest==3.8.0",
     "simplejson==3.16.0",
